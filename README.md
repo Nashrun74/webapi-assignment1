@@ -1,4 +1,4 @@
-# Assignment 1
+# Nashrun_CurrencyConverter
 
 You will only need one file, ie, your node module, for this assignment.
 
