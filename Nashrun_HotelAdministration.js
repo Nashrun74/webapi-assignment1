@@ -36,7 +36,6 @@ const reservations = [
     }
 ];
 
-//DONE
 // Function to book reservation
 function bookReservation(name, startDate, endDate, roomNum) {
 
@@ -77,7 +76,6 @@ Thank you and enjoy your stay.`);
     }
 }
 
-//DONE
 // Function to check in hotel
 function checkInGuest(roomNum) {
 
@@ -137,7 +135,6 @@ function checkOutGuest(roomNum) {
     }
 }
 
-//DONE
 // Function to check available rooms
 function checkRooms() {
     //array from rooms
@@ -158,7 +155,6 @@ function checkRooms() {
       console.log(`available rooms are:`, availableRooms);
 }
 
-//DONE
 // Function to check booking by name & room number
 function checkReservations(name, roomNum) {
 
