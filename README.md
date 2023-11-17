@@ -1,5 +1,5 @@
 # Nashrun_HotelAdministration
-The Hotel Administration system module provides functions to retrieve information on **rooms** 
+The Hotel Administration system module provides functions to retrieve information on hotel **rooms** 
 
 # Installation
 
@@ -9,7 +9,7 @@ Download Node.js before getting started [download Node.js](https://nodejs.org/en
 
 In order to use the functions, create an **app.js** file.
 
-Next, create a variable as follow:
+Next, include the module into **app.js**:
 
 ```javascript
 const hotel = require("./Nashrun_HotelAdministration.js");
