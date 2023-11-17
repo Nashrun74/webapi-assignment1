@@ -91,9 +91,15 @@ function checkInGuest(roomNum) {
     } 
     // if already checked in
     else if(reservations.find(reservation =>
-        reservation.checkIn == true && reservation.roomNum == roomNum
+        reservation.checkIn == true && reservation.roomNum == roomNum && reservation.checkOut == false
     )) {
         console.log('Guest have already checked in');
+    }
+
+    else if(reservations.find(reservation =>
+        reservation.checkOut == true
+    )) {
+        console.log('Guest has already checked out')
     }
     
     //if no such room reserved
@@ -116,7 +122,7 @@ function checkOutGuest(roomNum) {
     // if reservation exist and guest has already checked in
     if(reservation) {
         //sets checkIn as false
-        reservation.checkIn = false;
+        // reservation.checkIn = false;
         //sets checkOut as true
         reservation.checkOut = true;
         //adds the room back at the same index in rooms array
